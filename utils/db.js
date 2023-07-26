@@ -6,7 +6,7 @@ const { ClientRecord } = require("../records/client-record");
 class Db {
   constructor(dbFileName) {
     this.dbFileName = join(__dirname, "../data", dbFileName);
-    // eslint-disable-next-line no-underscore-dangle
+
     this._load();
   }
 

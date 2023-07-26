@@ -1,0 +1,31 @@
+table {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+tr {
+  margin: 4px;
+  background-color: lightgray;
+}
+
+thead tr,
+.header-left th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+.error {
+  background-color: lightcoral;
+  border: 2px solid red;
+  padding: 20px;
+  width: 80%;
+  margin: 10px;
+}

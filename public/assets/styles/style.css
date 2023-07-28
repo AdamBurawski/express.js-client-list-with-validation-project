@@ -78,3 +78,19 @@ th {
   width: 80%;
   margin: 10px;
 }
+
+@media (max-width: 767px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  thead tr,
+  .header-left th {
+    width: 89%;
+    text-align: center;
+  }
+  thead tr {
+    display: none;
+  }
+}

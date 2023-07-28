@@ -41,13 +41,20 @@ button {
   border: none;
   padding: 10px 15px;
   background-color: cadetblue;
+  border: 1px solid cadetblue;
   color: white;
   text-transform: uppercase;
   border-radius: 8px;
-  /* position: relative;
-  left: 50%;
-  transform: translateX(-50%); */
   margin: 10px auto;
+  cursor: pointer;
+
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid cadetblue;
+  color: cadetblue;
 }
 
 thead tr,

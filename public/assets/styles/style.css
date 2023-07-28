@@ -1,3 +1,12 @@
+body {
+  background-color: darkslategray;
+  color: white;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 table {
   text-align: left;
   width: 80%;
@@ -6,11 +15,44 @@ table {
 tr {
   margin: 4px;
   background-color: lightgray;
+  color: #595959;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #595959;
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 8px;
+  /* position: relative;
+  left: 50%;
+  transform: translateX(-50%); */
+  margin: 10px auto;
 }
 
 thead tr,
 .header-left th {
-  background-color: black;
+  background-color: cadetblue;
   color: white;
 }
 tr:nth-child(even) {
